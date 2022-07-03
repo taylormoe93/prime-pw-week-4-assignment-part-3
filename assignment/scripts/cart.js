@@ -17,6 +17,7 @@ function addItem(item) {
 	console.log('added', item);
 	return true; // Return true indicating item was added
 }
+
 console.log(addItem('eggs')); // Test
 addItem('bread'); // Test
 addItem('juice'); // Test
@@ -46,11 +47,17 @@ console.log(basket); // Test
 function isFull() {
 	if (basket.length < maxItems) {
 		return false;
-	} 
-// Return 'true' otherwise
-    else if (basket.length >= maxItems) {
+	}
+	// Return 'true' otherwise
+	else if (basket.length >= maxItems) {
 		return true;
 	}
 }
-console.log('Is the basket full?', isFull()); // Test
-
+console.log('Is the basket full? - expect false', isFull()); // Test
+addItem('testItem1');
+addItem('testItem2');
+addItem('testItem3');
+addItem('testItem4');
+addItem('testItem5');
+addItem('testItem6');
+console.log('Is the basket full now? - expect true', isFull()); // Test
