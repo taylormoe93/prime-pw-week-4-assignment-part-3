@@ -28,8 +28,8 @@ X Create a function called `listItems`. It should:
   X loop over the items in the `basket` array
   X console.log each individual item on a new line
 
-- Create a function called `empty`. It should:
-  - reset the `basket` to an empty array
+X Create a function called `empty`. It should:
+  X reset the `basket` to an empty array
 
 > __IMPORTANT__
 > Make sure that you are writing code *in the file* to test every function that you write!
@@ -45,12 +45,11 @@ console.log(`Basket is now ${basket}`);
 Remember that Stretch Goals are not required, but will help you to further develop concepts from the skills we have covered.
 
 __Using functions in other functions!__
+X1. Add a global `const` named `maxItems` and set it to 5.
 
-1. Add a global `const` named `maxItems` and set it to 5.
-
-2. Create a function called isFull(). It should:
-  - return `false` if the basket contains *less* than max number of items
-  - return `true` otherwise (equal or more than maxItems)
+x2. Create a function called isFull(). It should:
+  x return `false` if the basket contains *less* than max number of items
+  x return `true` otherwise (equal or more than maxItems)
 
 3. Update the required `addItem` function to:
   - Use the `isFull` function to prevent more than `maxItems` from being added to the basket. 
