@@ -19,10 +19,10 @@ Update the `cart.js` file to do the following:
 
 X Create a global variable named `basket` and set it to an empty array.
 
-- Create a function called `addItem`. It should:
-  - take an input parameter for a string `item`
-  - add the new item to the global array `basket`. 
-  - return `true` indicating the item was added
+X Create a function called `addItem`. It should:
+  X take an input parameter for a string `item`
+  X add the new item to the global array `basket`. 
+  X return `true` indicating the item was added
 
 X Create a function called `listItems`. It should:
   X loop over the items in the `basket` array
